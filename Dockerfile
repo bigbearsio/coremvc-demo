@@ -1,5 +1,3 @@
-
-
 FROM microsoft/dotnet:latest
 COPY out /app
 WORKDIR /app
@@ -8,4 +6,4 @@ WORKDIR /app
 EXPOSE 5000/tcp
 ENV ASPNETCORE_URLS http://*:5000
  
-ENTRYPOINT ["dotnet", "coremvc.dll"]
+ENTRYPOINT ["dotnet", "/app/coremvc.dll"]
