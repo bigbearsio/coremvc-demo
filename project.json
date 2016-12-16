@@ -95,6 +95,7 @@
   "publishOptions": {
     "include": [
       "wwwroot",
+      "Dockerfile",
       "**/*.cshtml",
       "appsettings.json",
       "web.config"
