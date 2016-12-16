@@ -83,6 +83,7 @@
   "buildOptions": {
     "debugType": "portable",
     "emitEntryPoint": true,
+    "outputName": "coremvc",
     "preserveCompilationContext": true
   },
 
